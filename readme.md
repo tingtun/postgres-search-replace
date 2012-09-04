@@ -9,8 +9,8 @@ PostgreSQL search–replace
 
 ### Configure what columns to search
 
-    cp configuration_.py configuration.py
-    vim configuration.py
+    cp configurations_.py configurations.py
+    vim configurations.py
 
 ## Usage
 
