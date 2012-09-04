@@ -7,24 +7,24 @@ PostgreSQL search–replace
     git clone git://github.com/alexanderte/psr.git
     cd psr
 
-### Specify database and columns to include
+### Configure what columns to search
 
-    cp settings_.py settings.py
-    vim settings.py
+    cp configuration_.py configuration.py
+    vim configuration.py
 
 ## Usage
 
-    psr [search_str [replace_str]]
+    psr [configuration_id search_str [replace_str]]
 
 ## Examples
 
 ### Search for all occurences of “foo”
 
-    ./psr.py foo
+    ./psr.py 0 foo
 
 ### Replace occurences of “foo bar” with “bar foo“
 
-    ./psr.py 'foo bar' 'bar foo'
+    ./psr.py 0 'foo bar' 'bar foo'
 
 ## License
 
